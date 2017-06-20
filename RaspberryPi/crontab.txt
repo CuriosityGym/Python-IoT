@@ -1,0 +1,6 @@
+
+@reboot sudo python /home/pi/startup/enumeratePi.py  > /home/pi/startup/log.txt
+
+
+
+

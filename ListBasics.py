@@ -2,7 +2,7 @@
 anyListName=["a","b","c","d","e"]
 
 #List of Numbers
-numberList=[1,2,3,4,5]
+numberList=[100, 200, 300, 400, 500]
 
 
 #Accessing List Values by index
@@ -24,8 +24,8 @@ for element in anyListName:
     print(element)
 
 #Writing a conditional statement
-if (numberList[3]==4):
-   print ("The Third Number is 4")
+if (numberList[3]==400):
+   print ("The Third Number is 400")
 else:
    print("The third Number is not 4")
 

@@ -13,7 +13,7 @@ squareRoot=math.sqrt(n) #Find the square root of n
 divisorRange=math.ceil(squareRoot) 
 for index in range ( 2, divisorRange): #Start with 2, till the divisorRange, increment by 1.
     # there could be numbers which are factors already, and may have been set to 0, lets ignore them.
-    if index==0:
+    if primeList[index]==0:
         continue # use continue to proceed to the next loop item, without executing anything below 
     for factors in range( index*2, n, index): #Start with twice the index, increment by index
         primeList[factors]=0 # find all factors of the chosen number, set all factors to 0

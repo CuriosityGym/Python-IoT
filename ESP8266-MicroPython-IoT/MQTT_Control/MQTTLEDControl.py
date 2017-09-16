@@ -6,10 +6,6 @@ from machine import Pin
 import ubinascii
 import machine
 import micropython
-#print(os.listdir())
-print(utilities.connectToWifi("New Curiosity Gym", "CuriosityTwinkle"))
-
-
 
 # ESP8266 ESP-12 modules have blue, active-low LED on GPIO2, replace
 # with something else if needed.

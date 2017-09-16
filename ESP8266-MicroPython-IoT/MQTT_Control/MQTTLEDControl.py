@@ -1,6 +1,5 @@
 import os
 import time
-import utils.MicroPyCGUtils as utilities
 from umqtt.simple import MQTTClient
 from machine import Pin
 import ubinascii

@@ -2,7 +2,7 @@ sortedList=[12,14,18,25,35,67,98,123,145,167,189,200, 400, 800, 1200, 15000]
 
 listLength=len(sortedList)
 LowerIndex=0
-HigherIndex=listLength
+HigherIndex=listLength-1
 
 
 print ("Please Enter the number to search for")

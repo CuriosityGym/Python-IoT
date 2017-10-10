@@ -15,7 +15,7 @@ except ImportError:
 
 
 
-
+configFileName='config.json'
 
 """
 Configuration file management functions
@@ -82,7 +82,7 @@ def list_settings(config_file=None):
         print('%s=%s' % (key, settings[key]))
 
 def do_connect():
-        configFileName='config.json'
+        
         SSID=get("SSID", configFileName)
         PWD=get("PWD", configFileName)
         print("The network: " +SSID + " has password as: "+PWD)        
@@ -108,6 +108,8 @@ def do_connect():
         print('Network config:', network_if.ifconfig())
 
         
-webrepl.start()
+
 gc.collect()
 do_connect()
+##list_settings(configFileName)
+webrepl.start()
